@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6b337;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background-color: #FFA500;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.contacts-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+button.edit-btn,
+button.delete-btn {
+    background-color: #FFA500;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favori {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.favori input {
+    margin-right: 20px;
+}
+
+.favori label {
+    margin-left: 50px;
+}
+
+.chek {
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+.modifier {
+    background-color: #FFA500;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.supprimer {
+    background-color: #f84f06;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modSup form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* .enHaut {
+    display: inline-block;
+} */
+
+.titre {
+    display: inline-block;
+}
+
+.form {
+    display: inline-block;
+    margin-bottom: 0%;
+    float: inline-end;
+    background-color: #f6b337;
+}
+
+#btn {
+    background-color: #f6b337;
+    color: white;
+}
+
+
+
+
+#FavoriList {
+    width: calc(100%-40%);
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fdfbfb;
+    overflow-y: auto;
+    max-height: 350px;
+
+
+}
+
+#favori {
+    text-align: center;
+}
+
+#general {
+    width: 60%;
+}
+
+#contactsList {}
